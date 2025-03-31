@@ -25,11 +25,11 @@ Note that since November 1, 2007, the serial number part contains **9 characters
 To deal with all the changes over time, my code reflects the three time segments I worked with:
 
 
-Time segment #1: 01.11.2007 - 01.11.2021
+Time segment #1: 01.11.2007 - 31.10.2021
 
-Time segment #2: 01.12.2021 - 01.11.2023 
+Time segment #2: 01.11.2021 - 31.10.2023 
 
-Time segment #3: 01.12.2023 - ongoing ...
+Time segment #3: 01.11.2023 - ongoing ...
 
 <ins>**B) Additional constraint**</ins>
 

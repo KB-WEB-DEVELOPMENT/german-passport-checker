@@ -4,22 +4,22 @@
     "type": "library",
     "license": "MIT",
     "authors": [
-        {
+    	{
             "name": "Kâmi Barut-Wanayo",
             "email": "kamibarut@yahoo.com"
         }
     ],
-	"require": {
-		"php": ">=8.0",
-		"mockery/mockery": "dev-master"
-	},
+    "require": {
+	"php": ">=8.0",
+	"mockery/mockery": "dev-master"
+    },
     "autoload": {
         "psr-4": {
             "Kbarut\\TravelClearing\\": "src/",
-			"Kbarut\\TravelClearing\\Tests\\": "tests/"
+	    "Kbarut\\TravelClearing\\Tests\\": "tests/"
         } 
     },
-	"scripts": {
-		"test": "vendor/bin/pest"
-	}
+    "scripts": {
+	"test": "vendor/bin/pest"
+    }
 }

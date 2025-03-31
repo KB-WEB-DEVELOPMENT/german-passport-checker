@@ -18,7 +18,7 @@ Note that since November 1, 2007, the serial number part contains **9 characters
 
 ![image2](https://i.ibb.co/67DypCDH/image2.png)
 
-**A) Initial constraints**
+<ins>**A) Initial constraints**</ins>
 
 ![image3](https://i.ibb.co/5WSM47jg/image3.png)
 
@@ -31,7 +31,7 @@ Time segment #2: 01.12.2021 - 01.11.2023
 
 Time segment #3: 01.12.2023 - ongoing ...
 
-**B) Additional constraint**
+<ins>**B) Additional constraint**</ins>
 
 You can read about the ICAO MRZ Check Digit algorithm here:
 

@@ -198,7 +198,7 @@ class PassportChecker
 
 	/**
 	* 
-	* Validates the $input string against Time segment 1: 01.11.2007 - 01.11.2021 
+	* Validates the $input string against Time segment 1: 01.11.2007 - 31.10.2021 
 	* Returns true if it matches it, false if it doesn't
 	*
 	* @param string $input	
@@ -237,8 +237,8 @@ class PassportChecker
 	
 	/**
 	* 
-	* Validates the $input string against both Time segment 2 (01.12.2021 - 01.11.2023)
-        * and Time segment 3 (01.12.2023 - onwards ...)	
+	* Validates the $input string against both Time segment 2 (01.11.2021 - 31.10.2023)
+        * and Time segment 3 (01.11.2023 - onwards ...)	
 	* Returns true if it matches it, false if it doesn't
 	*
 	* @param string $input	
@@ -278,7 +278,7 @@ class PassportChecker
 	/**
 	* 
 	* Deals with the special case (the passpord ID contains only allowed letters)
-        * for the timespan 01.11.2007 - 01.11.2023	
+        * for the timespan 01.11.2007 - 31.10.2023	
 	* Returns true if the $input string matches it, false if it doesn't
 	*
 	* @param string $input	

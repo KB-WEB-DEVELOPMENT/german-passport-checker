@@ -141,7 +141,7 @@ class PassportChecker
 	public function firstCharacterCheck(string $input): bool
 	{
 	    $allowed = [];
-	    $allowed = ['C','F','G','H','J','K','L','M','N','P','R','T','V','','X','Y','Z'];
+	    $allowed = ['C','F','G','H','J','K','L','M','N','P','R','T','V','W','X','Y','Z'];
 	
 	    $first =  substr($input,0,1); 	
 	

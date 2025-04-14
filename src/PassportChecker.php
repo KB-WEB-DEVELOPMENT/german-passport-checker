@@ -193,7 +193,7 @@ class PassportChecker
 		        $count++;
 		}							
 	    }		
-	    return ($count < 1) ? false : true;
+	    return $count < 1 ? false : true;
 	}
 
 	/**
@@ -232,7 +232,7 @@ class PassportChecker
 	   $firstNine = substr($input,0,9); 
 	   $tenth = (int)substr($input,9,1);
 		
-	   return $this->validateChecksum($firstNine,$tenth);	
+	   $this->validateChecksum($firstNine,$tenth);	
 	}
 	
 	/**
@@ -272,7 +272,7 @@ class PassportChecker
 	   $firstNine = substr($input,0,9); 
 	   $tenth = (int)substr($input,9,1);
 		
-	   return $this->validateChecksum($firstNine,$tenth);
+	   $this->validateChecksum($firstNine,$tenth);
 	}
 	
 	/**
@@ -309,7 +309,7 @@ class PassportChecker
 	    $firstNine = substr($input,0,9); 
 	    $tenth = (int)substr($input,9,1);
 				
-	    return $this->validateChecksum($firstNine,$tenth); 	
+	    $this->validateChecksum($firstNine,$tenth); 	
 	}
 			
 	/**
@@ -350,6 +350,6 @@ class PassportChecker
 		
 	   $moded = $sum % 10; 
 		
-	   return ($tenth === $moded);
+	   return $tenth === $moded;
 	}		
 }

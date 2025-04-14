@@ -116,7 +116,7 @@ class PassportChecker
       */		
      public function emptyInput(string $input): bool
      {
-	return (strlen($input) === 0);
+	return strlen($input) === 0;
      }	
      /**
       * removes all spaces and special characters empty spaces from the string

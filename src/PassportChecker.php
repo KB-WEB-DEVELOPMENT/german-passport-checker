@@ -297,7 +297,7 @@ class PassportChecker
 	   $allowed_letters = ['C','F','G','H','J','K','L','M','N','P','R','T','V','W','X','Y','Z'];
 		
 	   foreach ($split as $char) {
-	       if (!in_array($char,$merged)) {
+	       if (!in_array($char,$allowed_letters)) {
 		    $res = false;	
 		    break;
 	       }
